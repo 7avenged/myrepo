@@ -1,0 +1,154 @@
+Load
+balancing is a techniques that helped networks and resources by providing a
+Maximum throughput with minimum response time. Load balancing is dividing the traffic
+between all servers, so data can be sent and received without any delay with load balancing.
+In cloud environment many algorithms are available that helps in proper traffic
+Loaded
+between
+all available servers .Most of
+them can
+be applied
+in the
+cloud
+environment with
+suitable
+verifications. In cloud computing environment load balancing
+algorithms can be divided into two main groups : first algorithm type is Batch mode heuristic
+scheduling
+algorithms (BMHA) and second is online mode heuristic algorithms. In BMHA Jobs
+are combined together when they are arriving in the system. The BMHA scheduling algorithm
+will start after a fixed time period.
+
+It is very important to estimate proper load , need to do comparison of all load , stability
+of all different systems, performance of purposed system, interaction between all the nodes
+and nature of work to be transferred while developing a load balancing algorithm . The most important
+thing is selecting the nodes and its also include many other ones. CPU load, amount of memory
+required combine together to calculate the load of machine.
+
+In our daily life example of load balancing is websites. Users could experience many Problems
+without Load balancing like delays, timeouts and long system responses.
+
+
+
+
+
+
+
+Load balancing is used to distributing a larger processing load to smaller processing nodes for
+enhancing the overall performance of system. In cloud computing environment load balancing is
+required distribute the dynamic local workload evenly between all the nodes. .
+
+Load
+balancing is a techniques that helped networks and resources by providing a
+Maximum throughput with minimum response time. Load balancing is dividing the traffic
+between all servers, so data can be sent and received without any delay with load balancing.
+
+
+In cloud computing environment load balancing
+algorithms can be divided into two main groups : first algorithm type is Batch mode heuristic
+scheduling
+algorithms (BMHA) and second is online mode heuristic algorithms. In BMHA Jobs
+are combined together when they are arriving in the system. The BMHA scheduling algorithm
+will start after a fixed time period.
+
+In On-line mode heuristic scheduling algorithm, all Jobs are scheduled when
+they are arriving in the system. The cloud environment is a heterogeneous system and in this speed
+of each processor varies quickly and easily. The online mode heuristic scheduling algorithms
+are more appropriate and better for a cloud environment.
+
+
+
+***It is very important to estimate proper load , need to do comparison of all load , stability
+of all different systems, performance of purposed system, interaction between all the nodes
+and nature of work to be transferred while developing a load balancing algorithm . The most important
+thing is selecting the nodes and its also include many other ones. CPU load, amount of memory
+required combine together to calculate the load of machine.**IMPORTANT
+
+
+B. Metrics for Load Balancing:
+1. Throughput: - It is used to calculate the all tasks whose execution
+has been
+completed. The
+performance of any system is improved if throughput is high.
+2. Fault Tolerance: -It means recovery from failure. The load balancing should be a good fault-
+tolerant technique.
+3. Migration time: -It is the time to migrate the jobs or resources from one node to other
+nodes. It
+should be minimized in order to enhance the performance of the system.
+4. Response Time: - It is the amount of time that is taken by a particular load balancing algorithm to
+response a task in a system. This parameter should be minimized for better performance of a system.
+5. Scalability: - It is the ability of an algorithm to perform Load balancing for any finite number
+of nodes of a system. This metric should be improved for a good system.
+
+V. E XISTING L OAD B ALANCING A LGORITHMS
+1. Task Scheduling based on LB: This algorithm mainly consist two
+level
+task
+scheduling
+mechanism
+which are based on load balancing to meet dynamic requirements
+of users . It
+obtains high resource utilization. This algorithm achieves load balancing by first mapping tasks to
+virtual machines and then all virtual machines to host resources .It is improving the task
+response time .It also provide better resource utilization .
+
+=============cloud scheduling=================
+The task scheduling mainly focuses to enhance the
+efficient utilization of resources and hence reduction in task
+completion time. Task scheduling is used to allocate certain tasks
+to particular resources at a particular time instance. Many
+different techniques have been proposed to solve the problems of
+task scheduling.
+
+Task scheduling improves the efficient utilization of
+resource and yields less response time so that the execution of
+submitted tasks takes place within a possible minimum time.
+
+===============================================
+
+
+http://ieeexplore.ieee.org/document/7343497/?denied
+https://www.hindawi.com/journals/js/2016/4250746/          Multipath Load Balancing Routing for Internet of Things
+https://brage.bibsys.no/xmlui/handle/11250/261862               Routing and load balancing in Internet of Things (IoT)
+https://link.springer.com/article/10.1007/s10586-016-0667-5     #A load balancing scheme based on deep-learning in IoT -IMPORTANT PAPER 
+https://link.springer.com/article/10.1007/s11227-017-2087-6       A load balancing scheme with Loadbot in IoT networks
+
+
+
+..an excerpt from "A load balancing scheme based on deep-learning in IoT" paper->
+we propose an agent Loadbot that measures
+network load and process structural configuration by ana-
+lyzing a large amount of user data and network load, and
+applying Deep Learning’s Deep Belief Network method in
+order to achieve efficient load balancing in IoT. Also, we
+propose an agent Balancebot that processes a neural load
+prediction algorithm based on Deep Learning’s Q-learning
+method and neural prior ensemble. We address the key func-
+tions for our proposed scheme and simulate the efficiency of
+our proposed scheme using mathematical analysis.
+
+We address the key func-
+tions for our proposed scheme and simulate the efficiency of
+our proposed scheme using mathematical analysis.
+
+NEED OF LOAD CONTROL IN IOT- GREAT!-->
+There have been numerous
+proposals for the load control of the random access channel
+[15–20]. These proposals are mostly based on announcing an
+access probability, where the nodes are barred from channel
+access with some probability. Service differentiation pro-
+vided by these methods is limited: they either treat all nodes
+equally by announcing the same access probability; or, they
+group nodes into few predetermined service classes as in
+Extended Access Barring [21] and treat them according to
+their access class. Such a limited service differentiation is not
+enough for satisfying the wide range of service requirements
+of IoT devices. Without load balancing, a coordinator with
+excessive number of wireless sensor nodes may lead to more
+energy consumption and experiences data reception delay as
+compared to the other coordinators
+
+
+###########MY SUGGESTION################''
+i propose an approach on applying NN on all the load balancing and scheduling algos. and testing the output of these parameters- ex. response time, bottlenecks, fault resistance etc.) and after running NN on each, let it decide which load balancing and scheduling algo to apply in which case i.e. choose the most optimal algo. situation wise.
+#######################################################
