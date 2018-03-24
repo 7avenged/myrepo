@@ -18,4 +18,8 @@ while a!=120:
     #writer.writerow([sound, smoke])
               
     a = a+1
+<<<<<<< HEAD
 #THIS IS FOR THE FILEweewredsa
+=======
+#THIS IS FOR xcxcTHE FILE
+>>>>>>> dummy1
