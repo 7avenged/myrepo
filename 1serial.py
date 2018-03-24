@@ -18,4 +18,4 @@ while a!=120:
     #writer.writerow([sound, smoke])
               
     a = a+1
-#THIS IS FOR THE FILEweewre
+#THIS IS FOR THE FILEweewredsa
